@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Thunder JS Runtime",
+            "type": "shell",
+            "command": ".\\build.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": ".\\test.bat",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Active JS File with Thunder JS",
+            "type": "shell",
+            "command": ".\\thunder-js.exe",
+            "args": [
+                "${file}"
+            ],
+            "group": "test",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,4 +1,5 @@
-# js_interpreter
+# Thunder JS Runtime
+
 Thunder JS Runtime is a lightweight, high-performance JavaScript execution environment built with C++ and QuickJS-NG. It provides a simple C++ wrapper around the amalgamated QuickJS engine, tailored for Windows systems (compiled with MinGW gcc/g++).
 
 ## Features

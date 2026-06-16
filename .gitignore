@@ -1,0 +1,7 @@
+# Compiled binaries and object files
+*.exe
+*.o
+quickjs/*.o
+
+# Temporary output files
+temp_output.txt
